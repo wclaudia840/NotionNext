@@ -16,11 +16,6 @@ export const Title = (props) => {
         <p className="leading-loose text-gray-dark">
             {description}
         </p>
-  {/* 新增文章摘要 */}
-        {post?.summary && (
-            <p className="text-gray-500 text-sm mt-2">
-                {post.summary}
-            </p>
         )}
     </div>
 }
