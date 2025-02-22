@@ -10,6 +10,7 @@ import Link from 'next/link'
  * 带封面图
  */
 const PostItemCard = ({ post, className }) => {
+  console.log(post); // 🔹 检查 post 里是否包含 summary
   const { siteInfo } = useGlobal()
   const cover = post?.pageCoverThumbnail || siteInfo?.pageCover
   return (
