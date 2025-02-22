@@ -40,9 +40,9 @@ const PostItemCard = ({ post, className }) => {
             </h2>
           </Link>
             
-          {/* 显示 summary */}
+          {/* 显示 summary（斜体 + 颜色稍浅） */}
           {post?.summary && (
-            <p className="text-gray-700 dark:text-gray-300 text-sm font-light leading-7 mt-2">
+            <p className="text-gray-500 dark:text-gray-400 text-sm font-light leading-7 mt-2 italic">
               {post?.summary}
             </p>
           )}
