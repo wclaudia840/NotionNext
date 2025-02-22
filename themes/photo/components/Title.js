@@ -16,6 +16,5 @@ export const Title = (props) => {
         <p className="leading-loose text-gray-dark">
             {description}
         </p>
-        )}
     </div>
 }
