@@ -39,6 +39,13 @@ const PostItemCard = ({ post, className }) => {
               {post?.title}
             </h2>
           </Link>
+            
+          {/* 显示 summary */}
+          {post?.summary && (
+            <p className="text-gray-700 dark:text-gray-300 text-sm font-light leading-7 mt-2">
+              {post?.summary}
+            </p>
+          )}
 
           {/* 发布日期 */}
           <Link
