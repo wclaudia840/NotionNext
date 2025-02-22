@@ -46,8 +46,8 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
             {post.title}
           </h2>
 
-          <p className='absolute bottom-3 z-20 line-clamp-1 text-xs mx-6'>
-            {post?.summary}
+          <p className='text-xs mx-6 bg-red-500 text-white p-2'>
+            {post?.summary || '测试摘要'}
           </p>
 
           <div className='h-3/4 w-full absolute left-0 bottom-0 z-10'>
